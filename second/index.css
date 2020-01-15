@@ -1,0 +1,55 @@
+* {
+    margin: 10px;
+}
+
+#solid {
+    border: solid black;
+}
+
+    #purple {
+        display: inline-block;
+        background-color: purple;
+        height: 50px;
+        width: 20px;
+    }
+
+    #green {
+        display: inline-block;
+        background-color: green;
+        height: 80px;
+        width: 200px;
+    }
+
+    #circle {
+        display: inline-block;
+        background-color: lightblue;
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+    }
+
+#dotted {
+    border: dotted black;
+}
+
+    #shadow-box {
+        margin: 20px;
+        height: 100px;
+        background-color: moccasin;
+        box-shadow: 5px 5px 2px 2px rgba(0, 0, 0, 0.8);
+    }
+
+#hello {
+    margin: auto;
+    width: 300px;
+    height: 200px;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.3);
+}
+
+    .blue-text {
+        padding: 80px 0 0 0;
+        text-align: center;    
+        color: blue;
+        letter-spacing: 5px;
+        font-weight: bold;
+    }
